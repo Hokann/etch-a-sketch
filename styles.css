@@ -10,10 +10,6 @@ body{
 .title-box{
     max-width: 500px;
     margin: 96px auto;
-    
-}
-
-h1{
     text-align: center;
 }
 
@@ -29,19 +25,16 @@ h1{
     padding: 32px;
     margin: auto;
 }
+
+
 .grid-box{
-    margin: 24px;
-    border-top: grey solid;
-    border-left: grey solid;
+    margin: 24px;border: grey solid;width: 500px;height: 500px;
 
 }
 .row{
-    display: flex;
+    display: flex ;
 }
 
-.row .column{
-    border-right: grey solid;
-    border-bottom: grey solid;
-    padding: 16px;
+.grid-element{
     
 }
