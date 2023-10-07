@@ -1,0 +1,47 @@
+body{
+    background-color: lightgray;
+}
+
+.main{
+    border-radius: 10px;
+    border: black solid;
+    background-color: white;
+}
+.title-box{
+    max-width: 500px;
+    margin: 96px auto;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 750px;
+    max-width: 1000px;
+    margin: auto;
+}
+.options-box{
+    padding: 32px;
+    margin: auto;
+}
+.grid-box{
+    margin: 24px;
+    border-top: grey solid;
+    border-left: grey solid;
+
+}
+.row{
+    display: flex;
+}
+
+.row .column{
+    border-right: grey solid;
+    border-bottom: grey solid;
+    padding: 16px;
+    
+}
