@@ -22,19 +22,17 @@ body{
     margin: auto;
 }
 .options-box{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     padding: 32px;
     margin: auto;
 }
 
-
 .grid-box{
-    margin: 24px;border: grey solid;width: 500px;height: 500px;
+    margin: 24px;border: black solid;width: 500px;height: 500px;
 
 }
 .row{
     display: flex ;
-}
-
-.grid-element{
-    
 }
